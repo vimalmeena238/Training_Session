@@ -67,5 +67,5 @@ for FP in sorted(os.listdir(imageDir)):
         #print IP,index
         continue
     continue
-print sorted(os.listdir(imageDir+FP))
+print sorted(os.listdir(imageDir+FP)) 
 
