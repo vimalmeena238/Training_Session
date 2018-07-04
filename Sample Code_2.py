@@ -34,7 +34,7 @@ for row in Fvecn:
     Fvecdiff[r] = LA.norm(Fvecn[r,:]-np.transpose(FSD))
     r = r+1
     continue
-
+ 
 print np.argmin(Fvecdiff)
 #print Fvecdiff
 print Rname[np.argmin(Fvecdiff)]    
