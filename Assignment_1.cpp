@@ -30,5 +30,5 @@ int main()
 	std::cout << "Sum is :" << accum << std::endl;
 
 	return 0;
-
+	
 }
