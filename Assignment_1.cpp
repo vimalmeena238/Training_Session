@@ -12,7 +12,7 @@
 
 const int N = 40;
 
-void sum(int*p, std::vector<int> & d)
+inline void sum(int*p, std::vector<int> & d)
 {
 	*p = 0;
 	for (int i = 0; i < N; ++i)
