@@ -12,10 +12,10 @@
 
 const int N = 40;
 
-void sum(int*p, int n, std::vector<int> & d)
+void sum(int*p, std::vector<int> & d)
 {
 	*p = 0;
-	for (int i = 0; i < n; ++i)
+	for (int i = 0; i < N; ++i)
 		*p = *p + d[i];
 }
 
@@ -26,7 +26,7 @@ int main()
 	for (int i = 0; i < N; ++i)
 		data.push_back(i);
 
-	sum(&accum, N, data);
+	sum(&accum, data);
 	std::cout << "Sum is :" << accum << std::endl;
 
 	return 0;
